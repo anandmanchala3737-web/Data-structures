@@ -11,7 +11,7 @@ int count(){
     struct node *temp;
     int i=1;
     temp=head;
-    while(temp->rlin pmk==head){
+    while(temp->rlink==head){
         temp=temp->rlink;
         i++;
     }
@@ -22,7 +22,7 @@ struct node *create(int value){
     struct node *temp;
     temp=(struct node*)malloc(sizeof(struct node));
     temp->data=value;
-    temp->llink=NULL;jbdjsjjj
+    temp->llink=NULL;
     temp->rlink=NULL;
 
     return temp;
