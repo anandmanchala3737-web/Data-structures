@@ -149,6 +149,7 @@ void delete_pos(int pos){
 
     else if(pos==i){
         delete_end();
+        // printf("deleted!");
     }
 
     else{
